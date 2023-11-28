@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+
+    <link rel="stylesheet" href="register.css">
+
+
+</head>
+<body>
+
+    <nav>
+        <input type="checkbox" name="" id="nav-button">
+        <label for="nav-button">&#9776</label>
+  
+            <div class="logo">
+              NoKa 3
+      
+            </div>
+  
+              <ul>
+                <li> <a href="home.html">Home</a> </li>
+                <li> <a href="news.html">News</a> </li>
+                <li> <a href="heroes.html">Heroes</a> </li>
+                <li> <a href="esport.html">E-Sport</a> </li>
+                <li> <a href="register.html">Register Now</a> </li>
+              </ul>  
+      </nav>
+
+    <div class="container">
+
+        <div class="login-form">
+
+            <div>
+                
+                <h2>
+                    Register
+                </h2>
+            </div>
+
+            <form action="" method="GET" id="register-form">
+                <div>
+                    <label for="username"> Username </label>
+                    <input type="text" id="username" name="username" placeholder="Username">
+                </div>
+        
+                <div>
+                    <label for="email"> Email </label>
+                    <input type="text" id="email" name="email" placeholder="Email">
+                </div>
+        
+                <div>
+                    <label for="password"> Password </label>
+                    <input type="password" id="password" name="password" placeholder="Password">
+                </div>
+
+                <div>
+                    <label for="co-password"> Confirm Password </label>
+                    <input type="password" id="co-password" name="co-password" placeholder="Confirm Password">
+                </div>
+        
+                <div class="gender">
+                    <label for=""> Gender </label>
+                    <input type="radio" name="gender" id="gender-male"> Male
+                    <input type="radio" name="gender" id="gender-female"> Female
+                </div>
+        
+                <div class="check01">
+                    <input type="checkbox" name="tos" id="tos"> Agree with terms and conditions
+                </div>
+        
+                <button onclick="home.html" class="button" type="submit"> 
+                    Register </button>
+        
+                <p style="color: red;" id="error"></p>
+            </form>
+
+        </div>
+    </div>
+
+    
+
+
+
+
+</body>
+<script src="./register.js"></script>
+</html>
